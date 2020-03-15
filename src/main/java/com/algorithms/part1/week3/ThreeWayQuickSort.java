@@ -3,14 +3,14 @@ package com.algorithms.part1.week3;
 public class ThreeWayQuickSort {
 
     public static void sort(int[] arr, int lo, int hi) {
-        if (lo >= hi) {
+        if (lo > hi) {
             return;
         }
         int l = lo;
         int h = hi;
         int comp = arr[l];
-        int i = lo;
-        while (l <= h) {
+        int i = lo + 1;
+        while (i <= h) {
             if (arr[i] < comp) {
                 swap(arr, l++, i++);
             } else if (arr[i] > comp) {

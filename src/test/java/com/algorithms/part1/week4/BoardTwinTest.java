@@ -8,9 +8,9 @@ class BoardTwinTest {
     void twin_1() {
 
         int[][] arr = new int[][]{
-                {5, 0, 4},
-                {2, 3, 8},
-                {7, 1, 6},
+                {1, 2, 3},
+                {4, 5, 6},
+                {8, 7, 0},
         };
 
 

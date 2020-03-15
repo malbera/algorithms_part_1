@@ -10,7 +10,7 @@ class ThreeWayQuickSortTest {
     void sort() {
         int[] arr = new int[] {8, 5, 2, 6, 1, 3, 4};
 
-        QuickSort.sort(arr);
+        ThreeWayQuickSort.sort(arr, 0, arr.length - 1);
 
         assertArrayEquals(new int[]{1, 2, 3, 4, 5, 6, 8}, arr);
     }
